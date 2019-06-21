@@ -31,7 +31,6 @@ def word_substituter(tweet)
         # replace that index with the value
         dictionary[x]
       else
-        binding.pry
         x
       end
   }.join
