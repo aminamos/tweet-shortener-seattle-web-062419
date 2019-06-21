@@ -34,7 +34,7 @@ def word_substituter(tweet)
       else
         x
       end
-  }.join
+  }.join(" ")
   binding.pry
 end
 
