@@ -28,7 +28,7 @@ def word_substituter(tweet)
   # iterate over the array
   tweet.split.collect do |x|
 
-binding.pry
+    binding.pry
       if x.include?(dictionary.keys) == true
         # replace that index with the value
         binding.pry
