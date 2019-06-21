@@ -29,7 +29,7 @@ def word_substituter(tweet)
   tweet.split.each do |x|
     # if the value in the current index matches any dictionary
     # key
-      if x.include?(dictionary.keys)
+      if x.include?(dictionary.keys) == true
         # replace that index with the value
         tweet[x] = dictionary[value]
       end
