@@ -9,7 +9,6 @@ def dictionary
     "hello" => "hi",
     "Hello" => "Hi"
     "to" => "2",
-    "To" => "2",
     "two" => "2",
     "too" => "2",
     "for" => "4",
