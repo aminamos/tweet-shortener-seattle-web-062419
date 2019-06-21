@@ -20,7 +20,7 @@ def dictionary
 
 end
 
-binding.pry
+
 # this receives a string as an argument
 
 def word_substituter(tweet) 
