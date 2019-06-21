@@ -28,13 +28,13 @@ def word_substituter(tweet)
   # iterate over the array
   nstring = ""
   nstring = tweet.split.collect  {|x| 
-      if dictionary.keys.include?(x) == true
-        # replace that index with the value
-        dictionary[x]
-      else
-        x
-      end
-  }.join(" ")
+              if dictionary.keys.include?(x) == true
+                # replace that index with the value
+                dictionary[x]
+              else
+                x
+              end
+          }.join(" ")
   nstring
 end
 
