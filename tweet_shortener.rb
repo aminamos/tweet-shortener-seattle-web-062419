@@ -30,9 +30,10 @@ def word_substituter(tweet)
       if dictionary.keys.include?(x) == true
         # replace that index with the value
          dictionary[x]
-         binding.pry
+         
       end
   }.join
+  binding.pry
 end
 
 
