@@ -7,6 +7,7 @@ def dictionary
   
   {
     "hello" => "hi",
+    "Hello"
     "to" => "2",
     "two" => "2",
     "too" => "2",
