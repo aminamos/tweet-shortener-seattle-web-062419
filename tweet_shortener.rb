@@ -35,6 +35,7 @@ def word_substituter(tweet)
                 x
               end
           }.join(" ")
+          binding.pry
   p nstring
 end
 
