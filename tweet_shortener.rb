@@ -47,6 +47,6 @@ def bulk_tweet_shortener(tweets)
   
   
 end
-
+"I'm running out of example tweets 4 u guys, which is weird, because I'm a writer & this is just writing & I tweet all day. 4 real, u guys.4 real."
 
 
