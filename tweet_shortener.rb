@@ -26,8 +26,8 @@ end
 def word_substituter(tweet) 
   # split the string into an array
   # iterate over the array
-  array = []
-  array << tweet.split.collect  {|x| 
+  nstring = ""
+  nstring = tweet.split.collect  {|x| 
       if dictionary.keys.include?(x) == true
         # replace that index with the value
         dictionary[x]
