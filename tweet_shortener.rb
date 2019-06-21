@@ -73,7 +73,22 @@ def selective_tweet_shortener(tweet)
   else
     p tweet
   end
-  
+end
 
+def shortened_tweet_truncator
+  nstring = ""
+    if tweet.length > 140
+      nstring = tweet.split.collect  {|x| 
+                  if dictionary.keys.include?(x) == true
+                    # replace that index with the value
+                    dictionary[x]
+                  else
+                    x
+                  end
+              }.join(" ")
+      p "#{nstring[0..140]}..."
+    else
+      p tweet
+    end
 
 end
