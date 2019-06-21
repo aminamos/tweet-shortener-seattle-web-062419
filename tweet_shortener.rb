@@ -40,10 +40,9 @@ end
 
 
 def bulk_tweet_shortener(tweets)
-  narray = []
-  narray << tweets.collect {|x|
-    
-    word_substituter(x)
+   tweets.collect {|x|
+   binding.pry
+   puts word_substituter(x)
     
   }
   
