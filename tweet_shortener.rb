@@ -60,7 +60,6 @@ end
 
 def selective_tweet_shortener(tweet)
   nstring = ""
-  binding.pry
   if tweet.length > 140
     nstring = tweet.split.collect  {|x| 
                 if dictionary.keys.include?(x) == true
