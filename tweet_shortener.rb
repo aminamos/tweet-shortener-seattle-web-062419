@@ -61,15 +61,15 @@ end
 def selective_tweet_shortener(tweet)
   nstring = ""
   if tweet.length > 140
-  nstring = tweet.split.collect  {|x| 
-              if dictionary.keys.include?(x) == true
-                # replace that index with the value
-                dictionary[x]
-              else
-                x
-              end
-          }.join(" ")
-  p nstring
+    nstring = tweet.split.collect  {|x| 
+                if dictionary.keys.include?(x) == true
+                  # replace that index with the value
+                  dictionary[x]
+                else
+                  x
+                end
+            }.join(" ")
+    p nstring
 
 
 end
