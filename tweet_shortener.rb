@@ -87,7 +87,7 @@ def shortened_tweet_truncator(tweet)
                   end
               }.join(" ")
       if nstring.length > 140
-        p "#{nstring[0..140]}..."
+        p "#{nstring[0..137]}..."
       else
         p nstring
       end
