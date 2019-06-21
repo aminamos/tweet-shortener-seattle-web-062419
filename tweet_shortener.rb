@@ -7,7 +7,7 @@ def dictionary
   
   {
     "hello" => "hi",
-    "Hello" => "Hi"
+    "Hello" => "Hi",
     "to" => "2",
     "two" => "2",
     "too" => "2",
@@ -16,7 +16,16 @@ def dictionary
     "be" => "b",
     "you" => "u",
     "at" => "@",
-    "and" => "&"
+    "and" => "&",
+    "To" => "2",
+    "Two" => "2",
+    "Too" => "2",
+    "For" => "4",
+    "Four" => "4",
+    "Be" => "B",
+    "You" => "U",
+    "At" => "@",
+    "And" => "&"
   }
 
 end
