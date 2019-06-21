@@ -26,12 +26,12 @@ end
 def word_substituter(tweet) 
   # split the string into an array
   # iterate over the array
-  tweet.split.collect do |x|
+  tweet.split.collect  {|x|
       if dictionary.keys.include?(x) == true
         # replace that index with the value
          dictionary[x]
       end
-  end
+  }.join
 end
 
 
