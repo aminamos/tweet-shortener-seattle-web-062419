@@ -26,7 +26,7 @@ end
 def word_substituter(tweet) 
   # split the string into an array
   # iterate over the array
-  tweet.split(/,/).each do |x|
+  tweet.split.each do |x|
     
     # if the value in the current index
     # matches any dictionary key
